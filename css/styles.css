@@ -1,0 +1,173 @@
+:root{
+    --main-title-text-color:#212121;
+    --other-title-color: #ffffff;
+    --primary-text-color: #757575;
+    --accent-color:#2196f3;
+}
+
+body{
+    font-family: 'Roboto';
+    color: var(--main-title-text-color);
+}
+
+/*Header*/
+.logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    text-decoration: none;
+}
+.logo:active{
+    color: var(--accent-color);
+}
+.logo span{
+    color: var(--accent-color);
+}
+.list,.item-contact,.item{
+    list-style-type: none;
+}
+nav a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--main-title-text-color);
+    text-decoration: none;
+}
+nav a:hover{
+    color: var(--accent-color);
+}
+nav a:active{
+    color: var(--primary-text-color);
+}
+.item-contact a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+.item-contact a:hover{
+    color: var(--accent-color);
+}
+.item-contact a:active{
+    color: var(--main-title-text-color);
+}
+
+/*Main*/
+.effective-solution{
+    background-color: #2f303a;
+}
+h1.title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-transform:uppercase;
+    color: var(--other-title-color);
+}
+.order-service{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--other-title-color);
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0px;
+    cursor: pointer;    
+}
+.order-service:hover{
+    background-color: blue;
+}
+
+.benefits .subtitle{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform:uppercase;
+}
+.benefits .text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;    
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.our-job .title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+}
+
+.our-command{
+    background-color: #f5f4fa;
+}
+.our-command .title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+}
+.list-command-card .item{
+    background-color: var(--other-title-color);
+}
+
+.our-command .subtitle{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+.our-command .position{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+
+/*Footer*/
+.footer{
+    background-color: #2F303A;;
+}
+.footer .logo{
+    color: var(--other-title-color);
+}
+.footer .logo:active{
+    color: var(--accent-color);
+}
+.footer .footer-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--other-title-color);
+}
+
+.footer .link-mail{
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer .link-tel{
+    color: rgba(255, 255, 255, 0.6);
+}
+.link-mail:hover{
+    color: var(--accent-color);
+}
+.link-tel:hover{
+    color: var(--accent-color);
+}
